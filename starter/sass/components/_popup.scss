@@ -39,8 +39,18 @@
     &__text{
         font-size: 1.4rem;
         margin-bottom: 4rem;
+
+        -moz-column-count: 2;
+        -moz-column-gap: 4rem; //1em =14px (it follows the current font size i.e. 1.4rem as above
+        -moz-column-rule: 1px solid $color-grey-light-2;
     
         column-count: 2;
         column-gap: 4rem; //1em =14px (it follows the current font size i.e. 1.4rem as above
+        column-rule: 1px solid $color-grey-light-2;
+
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
     }
 }
