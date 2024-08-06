@@ -152,7 +152,7 @@
 
 
 
-    @include respond{
+    @include respond(tab-port){
 
         height: auto;
         border-radius: 3px;
